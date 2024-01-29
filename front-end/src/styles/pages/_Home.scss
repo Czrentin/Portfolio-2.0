@@ -1,0 +1,18 @@
+.social-contact-wrapper {
+  border: 1px solid $fill-third-color;
+  border-radius: $radius;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-container,
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h2 {
+    @include h2-style;
+  }
+}

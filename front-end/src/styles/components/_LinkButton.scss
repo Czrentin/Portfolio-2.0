@@ -1,0 +1,13 @@
+.link-button {
+  background-color: $fill-third-color;
+  color: $text-color;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 25px;
+  border-radius: $radius;
+  @include p-large-style;
+  .fa-right-to-bracket {
+    cursor: pointer;
+    font-size: 24px;
+  }
+}

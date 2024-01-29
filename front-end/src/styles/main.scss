@@ -1,1 +1,18 @@
+@import './Utils';
+@import './layouts/Header';
+@import './layouts/Footer';
+@import './pages/Home';
+@import './components/ContactButton';
+@import './components/LinkButton';
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: $background-body;
+}

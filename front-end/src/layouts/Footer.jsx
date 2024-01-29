@@ -1,5 +1,5 @@
 function Footer() {
-  return <footer></footer>
+  return <footer>2024</footer>
 }
 
 export default Footer
