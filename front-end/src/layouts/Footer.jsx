@@ -1,5 +1,8 @@
 function Footer() {
-  return <footer>2024</footer>
+  const actualDate = new Date()
+  const actualYear = actualDate.getFullYear()
+
+  return <footer>{actualYear}</footer>
 }
 
 export default Footer
