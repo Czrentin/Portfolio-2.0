@@ -1,14 +1,15 @@
+import { Link } from 'react-router-dom'
+
 function LinkButton({ label, value }) {
   return (
-    <a
-      className='link-button'
+    <Link
+      to={value}
       target='_blank'
-      rel='noreferrer'
-      href={value}
+      className='link-button'
     >
       {label}
       <i className='fa-solid fa-right-to-bracket'></i>
-    </a>
+    </Link>
   )
 }
 

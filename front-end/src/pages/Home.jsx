@@ -22,7 +22,10 @@ function Home() {
             explorer de nouvelles technologies web et je suis toujours en quête de nouvelles
             compétences à acquérir.
           </p>
-          <Link className='link'>
+          <Link
+            to='/about'
+            className='link'
+          >
             En savoir plus <i className='fa-solid fa-right-to-bracket'></i>
           </Link>
         </div>
