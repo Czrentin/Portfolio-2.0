@@ -1,10 +1,46 @@
-.social-contact-wrapper {
+.social-contact-wrapper,
+.title-about-wrapper {
   border: 1px solid $fill-third-color;
   border-radius: $radius;
   padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.title-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  img {
+    width: 195px;
+    aspect-ratio: 1/1;
+  }
+  h1 {
+    @include h1-style;
+  }
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  p {
+    @include p-style;
+  }
+  .link {
+    background-color: $fill-secondary-color;
+    color: $text-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 25px;
+    border-radius: $radius;
+    @include p-large-style;
+    .fa-right-to-bracket {
+      cursor: pointer;
+      font-size: 24px;
+    }
+  }
 }
 
 .social-container,
