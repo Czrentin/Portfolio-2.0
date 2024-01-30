@@ -1,18 +1,20 @@
 import { Link } from 'react-router-dom'
+const x = 1
 
 function CardLink({ value }) {
   return (
-    <div class='card'>
-      <div class='project-info'>
-        <div class='project-bio'>
+    <Link to={x}>
+      <div class='card'>
+        <div className='content-card'>
           <h3>{value}</h3>
-        </div>
-
-        <div class='project-link'>
-          <Link>lien</Link>
+          <img
+            src='https://picsum.photos/600'
+            alt=''
+          />
+          <div className='overlay-card'></div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

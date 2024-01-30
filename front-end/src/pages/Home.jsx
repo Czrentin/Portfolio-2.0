@@ -66,6 +66,7 @@ function Home() {
           <Link
             to='https://github.com/Czrentin'
             className='link'
+            target='_blank'
           >
             Pour plus de projets <i className='fa-solid fa-right-to-bracket'></i>
           </Link>

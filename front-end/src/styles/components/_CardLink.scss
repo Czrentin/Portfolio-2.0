@@ -1,0 +1,36 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card {
+  display: block;
+  border-radius: $radius;
+}
+
+.content-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  .overlay-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  }
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 12/3;
+  }
+  h3 {
+    @include h3-style($text-transform: uppercase);
+    z-index: 1;
+    position: absolute;
+    margin-left: 10%;
+    pointer-events: none;
+  }
+}

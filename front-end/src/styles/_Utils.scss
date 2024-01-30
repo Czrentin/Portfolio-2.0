@@ -22,12 +22,13 @@ $radius: 0.5rem;
   text-transform: $text-transform;
 }
 
-@mixin h3-style {
+@mixin h3-style($text-transform: none) {
   color: $text-color;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 32px;
   letter-spacing: -0.144px;
+  text-transform: $text-transform;
 }
 
 @mixin p-style {

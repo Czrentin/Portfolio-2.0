@@ -1,3 +1,5 @@
+@import '../components/CardLink';
+
 .home-page {
   display: grid;
   max-width: 1200px;
@@ -103,23 +105,5 @@
         font-size: 24px;
       }
     }
-  }
-}
-
-.card-container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-.card {
-  padding: 1rem;
-  background: $fill-third-color;
-  border-radius: $radius;
-  transition: 0.4s ease-in-out;
-  cursor: pointer;
-  .link {
-    transition: 0.25s ease-in-out;
-    font-size: 1.1rem;
-    margin-right: 0.3rem;
   }
 }
