@@ -4,16 +4,16 @@ function ContactButton({ label, value }) {
   }
 
   return (
-    <div className='contact-button'>
+    <button
+      className='contact-button'
+      onClick={() => copyToClipboard(value)}
+    >
       <p>
         {label}
         <span className='copy-content'>{value}</span>
       </p>
-      <i
-        className='fa-solid fa-copy'
-        onClick={() => copyToClipboard(value)}
-      ></i>
-    </div>
+      <i className='fa-solid fa-copy'></i>
+    </button>
   )
 }
 

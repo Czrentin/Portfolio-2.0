@@ -4,9 +4,12 @@ header {
   margin-inline: auto;
   padding: 40px;
   justify-content: space-between;
-  @include h2-style;
+  h2 {
+    @include h2-style;
+  }
   .toggle-language {
     display: flex;
     gap: 20px;
+    @include h2-style;
   }
 }
