@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Portrait from '../assets/portrait.jpg'
 import ContactButton from '../components/ContactButton'
 import LinkButton from '../components/LinkButton'
-import CardLink from '../components/CardLink'
+import ProjectsList from '../components/ProjectsList'
 
 function Home() {
   return (
@@ -58,11 +58,7 @@ function Home() {
       <section className='projects-card-wrapper'>
         <div className='projects-card-container'>
           <h2>Projets</h2>
-          <div className='card-container'>
-            <CardLink value='Booki' />
-            <CardLink value='Kasa' />
-            <CardLink value='Grimoire' />
-          </div>
+          <ProjectsList />
           <Link
             to='https://github.com/Czrentin'
             className='link'
