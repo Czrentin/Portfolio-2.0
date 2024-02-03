@@ -2,17 +2,19 @@ import { Link } from 'react-router-dom'
 import data from '../data/data.json'
 
 function ProjectsLink() {
+  const projects = data.projets
+
   return (
     <ul className='card-container'>
-      {data.projets.map((projet) => (
-        <li key={projet.id}>
-          <Link to={'/project/' + projet.id}>
+      {projects.map((project) => (
+        <li key={project.id}>
+          <Link to={`/project/${project.id}`}>
             <div className='card'>
               <div className='content-card'>
-                <h3>{projet.titre}</h3>
+                <h3>{project.titre}</h3>
                 <img
-                  src='https://picsum.photos/600'
-                  alt={`${projet.titre} cover`}
+                  src={project.cover}
+                  alt={`${project.titre} cover`}
                 />
                 <div className='overlay-card'></div>
               </div>
