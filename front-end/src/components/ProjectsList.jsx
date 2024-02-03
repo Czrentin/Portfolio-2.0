@@ -6,7 +6,7 @@ function ProjectsLink() {
     <ul className='card-container'>
       {data.projets.map((projet) => (
         <li key={projet.id}>
-          <Link to={'/logements/' + projet.id}>
+          <Link to={'/project/' + projet.id}>
             <div className='card'>
               <div className='content-card'>
                 <h3>{projet.titre}</h3>

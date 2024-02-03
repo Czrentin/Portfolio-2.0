@@ -6,7 +6,6 @@ $text-color: #f6f9fc;
 $radius: 0.5rem;
 
 @mixin h1-style {
-  color: $text-color;
   font-size: 3rem;
   font-weight: 800;
   line-height: 48px;
@@ -14,7 +13,6 @@ $radius: 0.5rem;
 }
 
 @mixin h2-style($text-transform: none) {
-  color: $text-color;
   font-size: 1.875rem;
   font-weight: 600;
   line-height: 36px;
@@ -23,7 +21,6 @@ $radius: 0.5rem;
 }
 
 @mixin h3-style($text-transform: none) {
-  color: $text-color;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 32px;
@@ -32,21 +29,18 @@ $radius: 0.5rem;
 }
 
 @mixin p-style {
-  color: $text-color;
   font-size: 1rem;
   font-weight: 400;
   line-height: 28px;
 }
 
 @mixin p-large-style {
-  color: $text-color;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 28px;
 }
 
 @mixin p-small-style {
-  color: $text-color;
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 14px;

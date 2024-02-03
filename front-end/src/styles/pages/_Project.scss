@@ -1,0 +1,49 @@
+.title-project-container,
+.presentation-project-container,
+.stack-project-container,
+.description-project-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-project-container {
+  grid-column: 3 span;
+  h3 {
+    @include h2-style($text-transform: uppercase);
+  }
+}
+
+.presentation-project-container {
+  grid-column: 2 span;
+  background-color: $fill-fourth-color;
+  gap: 20px;
+  h4 {
+    color: $background-body;
+    @include h3-style;
+    text-align: center;
+  }
+  p {
+    color: $background-body;
+  }
+}
+
+.stack-project-container {
+  grid-column: 1 span;
+  border: 1px solid $fill-third-color;
+  border-radius: $radius;
+  h4 {
+    @include h3-style;
+    text-align: center;
+  }
+}
+
+.description-project-container {
+  grid-column: 3 span;
+  background-color: $fill-third-color;
+  gap: 20px;
+  h4 {
+    @include h3-style;
+    text-align: center;
+  }
+}
