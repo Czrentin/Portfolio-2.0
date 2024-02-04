@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Portrait from '../assets/portrait.jpg'
+import Portrait from '../data/portrait.jpg'
 import ContactButton from '../components/ContactButton'
 import LinkButton from '../components/LinkButton'
 import ProjectsList from '../components/ProjectsList'

@@ -23,7 +23,7 @@ root.render(
           element={<Home />}
         />
         <Route
-          path='/a-propos'
+          path='/about'
           element={<About />}
         />
         <Route

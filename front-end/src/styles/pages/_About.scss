@@ -1,0 +1,36 @@
+@import '../components/StackList';
+
+section {
+  grid-column: 3 span;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: $radius;
+  h2 {
+    @include h3-style;
+  }
+}
+
+.about-me-section {
+  background-color: $fill-third-color;
+  h2 {
+    text-align: center;
+  }
+}
+
+.stack-section {
+  background-color: $fill-fourth-color;
+  align-items: center;
+  h2 {
+    color: $background-body;
+    text-align: center;
+  }
+}
+
+.experience-section {
+  border: 1px solid $fill-third-color;
+  h2 {
+    text-align: center;
+  }
+}

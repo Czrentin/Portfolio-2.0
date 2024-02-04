@@ -13,70 +13,58 @@
   "stack": [
     {
       "nom": "TypeScript",
-      "logo": "assets/stack/typescript-icon.svg",
-      "categorie": "front"
+      "logo": "assets/stack/typescript-icon.svg"
     },
     {
       "nom": "React.js",
-      "logo": "assets/stack/react-icon.svg",
-      "categorie": "front"
+      "logo": "assets/stack/react-icon.svg"
     },
     {
       "nom": "Sass",
-      "logo": "assets/stack/sass-icon.svg",
-      "categorie": "front"
+      "logo": "assets/stack/sass-icon.svg"
     },
     {
       "nom": "Node.js",
-      "logo": "assets/stack/node-js-icon.svg",
-      "categorie": "back"
+      "logo": "assets/stack/node-js-icon.svg"
     },
     {
       "nom": "Express.js",
-      "logo": "assets/stack/express-js-icon.svg",
-      "categorie": "back"
+      "logo": "assets/stack/express-js-icon.svg"
     },
     {
       "nom": "MongoDB",
-      "logo": "assets/stack/mongo-db-icon.svg",
-      "categorie": "back"
+      "logo": "assets/stack/mongo-db-icon.svg"
     },
     {
       "nom": "Git",
-      "logo": "assets/stack/git-icon.svg",
-      "categorie": "outil"
+      "logo": "assets/stack/git-icon.svg"
     },
     {
       "nom": "Npm",
-      "logo": "assets/stack/npm-icon.svg",
-      "categorie": "outil"
+      "logo": "assets/stack/npm-icon.svg"
     },
     {
       "nom": "Postman",
-      "logo": "assets/stack/postman-icon.svg",
-      "categorie": "outil"
+      "logo": "assets/stack/postman-icon.svg"
     },
     {
       "nom": "Figma",
-      "logo": "assets/stack/figma-icon.svg",
-      "categorie": "outil"
+      "logo": "assets/stack/figma-icon.svg"
     },
     {
       "nom": "VSCode",
-      "logo": "assets/stack/vscode-icon.svg",
-      "categorie": "outil"
+      "logo": "assets/stack/vscode-icon.svg"
     },
     {
       "nom": "Notion",
-      "logo": "assets/stack/notion-icon.svg",
-      "categorie": "outil"
+      "logo": "assets/stack/notion-icon.svg"
     }
   ],
   "projets": [
     {
       "id": "1",
       "titre": "Kasa",
-      "cover": "/cover/kasa-cover.jpg",
+      "cover": "/assets/cover/kasa-cover.jpg",
       "lien": "#",
       "description": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Elle est dans le métier de la location d’appartements entre particuliers et a plus de 500 annonces postées chaque jour.",
       "stack": ["React.js", "Sass"],
@@ -92,7 +80,7 @@
     {
       "id": "2",
       "titre": "Grimoire",
-      "cover": "/cover/grimoire-cover.jpg",
+      "cover": "/assets/cover/grimoire-cover.jpg",
       "lien": "#",
       "description": "Un client souhaite ouvrir un site de notation de livres au nom de sa chaîne de librairies “Le Vieux Grimoire”. Le site s’appellera “Mon Vieux Grimoire” et nécessite que la partie back-end et l’API soit faite !",
       "stack": ["Node.js", "Express.js", "MongoDB", "Différentes librairies JS"],
@@ -108,7 +96,7 @@
     {
       "id": "3",
       "titre": "Architecte",
-      "cover": "/cover/portfolio-architecte-cover.jpg",
+      "cover": "/assets/cover/portfolio-architecte-cover.jpg",
       "lien": "#",
       "description": "Amélioration du site portfolio d’une architecte d’intérieur en le rendant dynamique, le tout avec une API.",
       "stack": ["JavaScript", "HTML", "CSS"],

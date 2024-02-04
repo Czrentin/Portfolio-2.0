@@ -1,0 +1,43 @@
+.stack-list-ul {
+  display: flex;
+}
+
+/* La magie commence ici */
+
+.scroller {
+  max-width: 700px; /* Important pour la suite */
+  margin-bottom: 1rem;
+}
+
+.scroller-inner {
+  display: flex;
+  gap: 1rem; /* Utiliser une custom property sera mieux ici et dans le Keyframe*/
+  flex-wrap: wrap;
+}
+
+.scroller[data-animated='true'] {
+  overflow: hidden;
+  /* mask donne l'effet fate un peu mais clairement pas obligatoire */
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  ); /* Nécessaire pour chrome les autres sont prit en compte avec mask */
+}
+
+.scroller[data-animated='true'] .scroller-inner {
+  width: max-content; /* Important sinon il prend la taille du parent et l'effet à un jump visible (PS : si y'a un soucis essayer fit-content */
+  flex-wrap: nowrap;
+  animation: scroll 80s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(
+      calc(-50% - 0.5rem)
+    ); /* 0.5rem c'est parce qu'il faut que ça soit la moitié du gap entre les items */
+  }
+}
