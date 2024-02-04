@@ -14,6 +14,7 @@ function Project() {
     return (
       <main>
         <div className='title-project-container'>
+          <div className='overlay-card'></div>
           <h3>{project.titre}</h3>
           <img
             src={project.cover}
@@ -32,9 +33,13 @@ function Project() {
         </div>
         <div className='stack-project-container'>
           <h4>La stack</h4>
-          <ul>
-            <li></li>
-          </ul>
+          <div>
+            <ul>
+              {project.stack.map((stack) => (
+                <li key={stack}>{stack}</li>
+              ))}
+            </ul>
+          </div>
         </div>
         <div className='description-project-container'>
           <h4>Le projet</h4>

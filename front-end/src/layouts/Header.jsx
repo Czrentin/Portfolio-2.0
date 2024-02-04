@@ -1,7 +1,11 @@
+import { Link } from 'react-router-dom'
+
 function Header() {
   return (
     <header>
-      <h2>Corentin B.</h2>
+      <Link to='/'>
+        <h2>Corentin B.</h2>
+      </Link>
       <div className='toggle-language'>
         <p>FR</p>
         <p>EN</p>

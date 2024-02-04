@@ -76,7 +76,7 @@
     {
       "id": "1",
       "titre": "Kasa",
-      "cover": "../assets/project/kasa-cover.jpg",
+      "cover": "/cover/kasa-cover.jpg",
       "lien": "#",
       "description": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Elle est dans le métier de la location d’appartements entre particuliers et a plus de 500 annonces postées chaque jour.",
       "stack": ["React.js", "Sass"],
@@ -92,7 +92,7 @@
     {
       "id": "2",
       "titre": "Grimoire",
-      "cover": "../assets/project/grimoire-cover.jpg",
+      "cover": "/cover/grimoire-cover.jpg",
       "lien": "#",
       "description": "Un client souhaite ouvrir un site de notation de livres au nom de sa chaîne de librairies “Le Vieux Grimoire”. Le site s’appellera “Mon Vieux Grimoire” et nécessite que la partie back-end et l’API soit faite !",
       "stack": ["Node.js", "Express.js", "MongoDB", "Différentes librairies JS"],
@@ -108,7 +108,7 @@
     {
       "id": "3",
       "titre": "Architecte",
-      "cover": "../assets/project/portfolio-architecte-cover.jpg",
+      "cover": "/cover/portfolio-architecte-cover.jpg",
       "lien": "#",
       "description": "Amélioration du site portfolio d’une architecte d’intérieur en le rendant dynamique, le tout avec une API.",
       "stack": ["JavaScript", "HTML", "CSS"],
