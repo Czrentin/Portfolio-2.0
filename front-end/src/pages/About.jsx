@@ -6,7 +6,13 @@ function About() {
     <main>
       <section className='about-me-section'>
         <h2>À propos de moi</h2>
-        <p>{data.parcours.details}</p>
+        {data.parcours.details.map((detail, index) => (
+          <p key={index}>
+            {detail}
+            <br />
+          </p>
+        ))}
+        <p>{data.parcours.details.join('\n')}</p>
       </section>
       <section className='stack-section'>
         <h2>Ma stack technique</h2>

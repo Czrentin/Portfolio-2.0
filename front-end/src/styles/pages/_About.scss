@@ -17,6 +17,9 @@ section {
   h2 {
     text-align: center;
   }
+  p {
+    @include p-style;
+  }
 }
 
 .stack-section {
