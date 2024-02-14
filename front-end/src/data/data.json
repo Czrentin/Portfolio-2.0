@@ -15,22 +15,24 @@
     ],
     "experiences": [
       {
-        "titre": "",
-        "entreprise": "",
-        "contrat": "",
-        "dates": ""
+        "titre": "Régisseur technique",
+        "entreprise": "Who's next",
+        "dates": "Janvier 2024"
       },
       {
-        "titre": "",
-        "entreprise": "",
-        "contrat": "",
-        "dates": ""
+        "titre": "Assistant réalisateur / Chef opérateur",
+        "entreprise": "ID Production",
+        "dates": "Novembre 2022 à Octobre 2023"
       },
       {
-        "titre": "",
-        "entreprise": "",
-        "contrat": "",
-        "dates": ""
+        "titre": "Serveur en restauration",
+        "entreprise": "Restaurant le Golf",
+        "dates": "Octobre 2022 à Décembre 2022"
+      },
+      {
+        "titre": "Animateur en centre de loisirs",
+        "entreprise": "Ville de Gonesse",
+        "dates": "Septembre 2021 à Septembre 2022"
       }
     ]
   },
@@ -89,48 +91,86 @@
       "id": "1",
       "titre": "Kasa",
       "cover": "/assets/cover/kasa-cover.jpg",
-      "lien": "#",
-      "description": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Elle est dans le métier de la location d’appartements entre particuliers et a plus de 500 annonces postées chaque jour.",
-      "stack": ["React.js", "Sass"],
-      "contexte": "Il s’agit ici d’un projet d’étude pour développer un front-end fonctionnel en React.js avec un back-end pas encore construit donc simplement avec un fichier JSON. Laura, la CTO, a lancé une refonte totale pour passer à une stack complète en JavaScript avec Node.js côté back-end et React.js côté front-end.",
+      "lien": "https://github.com/Czrentin/P6-Kasa",
+      "contexte": [
+        "Il s’agit ici d’un projet d’étude pour développer un front-end fonctionnel en React.js avec un back-end pas encore construit.",
+        "Une refonte totale pour passer à une stack complète en JavaScript a été lancée et je me suis occupé du front-end en React.js."
+      ],
+      "description": [
+        "Un site de location d'appartement a lancé sa refonte complète et je me suis occupé du front-end.",
+        "Kasa fut pour ma part mon premier projet en React.js et quel bonheur.",
+        "L'aspect le plus important était de comprendre le système de composant et de se familiariser avec React-router-dom et son routing. Et je me suis senti comme un poisson dans l'eau. De plus l'utilisation des hooks et des props à rendu ce projet hyper rapide à sa conception et cela a rendu pour moi l'expérience encore plus agréable, je me suis vite rendu compte de pourquoi le choix avait été porté sur cette technologie là.",
+        "Il n'y a pas forcément eu d'aspect compliquédans ce projet car il s'agissait de surtout adopter une méthodologie qui dans mon cas était naturel et proche de ma façon de penser."
+      ],
+      "stack": ["React.js", "Reac-router-dom", "Sass"],
       "objectifs": [
         "Mettre en place un environnement sous React.js & Sass",
-        "Configurer la navigation entre les pages de l'application avec React Router",
-        "Développer des éléments de l'interface d'un site web grâce à des composants React",
+        "Configurer la navigation entre les pages de l'application avec React-router-dom",
+        "Développer des éléments de l'interface d'un site web grâce à des composants React.js",
         "Mettre en œuvre des animations CSS de ces composants"
       ],
-      "images": [""]
+      "images": [
+        "/assets/project/kasa-home.jpeg",
+        "/assets/project/kasa-location.jpeg",
+        "/assets/project/kasa-dropdown.jpeg"
+      ]
     },
     {
       "id": "2",
       "titre": "Grimoire",
       "cover": "/assets/cover/grimoire-cover.jpg",
-      "lien": "#",
-      "description": "Un client souhaite ouvrir un site de notation de livres au nom de sa chaîne de librairies “Le Vieux Grimoire”. Le site s’appellera “Mon Vieux Grimoire” et nécessite que la partie back-end et l’API soit faite !",
+      "lien": "https://github.com/Czrentin/P7-Grimoire",
+      "contexte": [
+        "Il s’agit ici d’un projet d’étude pour développer un back-end fonctionnel avec Node.js et une base de données non relationnelle.",
+        "Le client souhaite ouvrir un site de notation de livres au nom de sa chaîne de librairies et veut intégrer un aspect écologique dedans avec du GreenCode."
+      ],
+      "description": [
+        "Le client est le gérant d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres à son nom.",
+        "Pour développer le tout j’ai eu à ma disposition les spécifications fonctionnelles du site, celle de l’API et bien sûr le code du front-end.",
+        "La partie la plus difficile de ce projet reste sans aucun doute cet aspect GreenCode, il m'a fallu me familiariser avec des documentations de librairies et les adapter à mes besoins. (Ce qui n'a pas été aussi évident que ça.)",
+        "Il y a aussi eu beaucoup de temps consacrée à l'aspect droit des utilisateurs, pour qu'ils ne puissent pas supprimer les livres ou les avis que les autres auraient postés par exemple."
+      ],
       "stack": ["Node.js", "Express.js", "MongoDB", "Différentes librairies JS"],
-      "contexte": "Il s’agit ici d’un projet d’étude pour développer un back-end fonctionnel avec Node.js, la partie front-end est déjà fournie. Il s’agit donc d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres. Pour développer le tout j’ai eu à ma disposition les spécifications fonctionnelles du site, celle de l’API et bien sûr le code du front-end. Le projet adopte aussi des pratiques de GreenCode ce qui pose de nouvelles problématiques.",
       "objectifs": [
         "Implémenter un modèle logique de données conformément à la réglementation",
         "Mettre en œuvre des opérations CRUD de manière sécurisée",
         "Stocker des données de manière sécurisée",
         "Développer en respectant des pratiques de GreenCode"
       ],
-      "images": [""]
+      "images": [
+        "/assets/project/mon-vieux-grimoire-home.jpeg",
+        "/assets/project/mon-vieux-grimoire-published.jpeg",
+        "/assets/project/mon-vieux-grimoire-book.jpeg"
+      ]
     },
     {
       "id": "3",
       "titre": "Architecte",
       "cover": "/assets/cover/portfolio-architecte-cover.jpg",
-      "lien": "#",
-      "description": "Amélioration du site portfolio d’une architecte d’intérieur en le rendant dynamique, le tout avec une API.",
+      "lien": "https://github.com/Czrentin/P3-Portfolio-Architecte",
+      "contexte": [
+        "Il s’agit ici d’un projet d’étude pour développer un front-end dynamique à l'aide d'une API.",
+        "Il consiste à reprendre une base existante d’un site vitrine statique développé en Javascript pour en faire quelque chose de dynamique.",
+        "Tout ceci est relié par une API Swagger que j’ai utiliser pour implémenter toutes les actions CRUD sur le site et permettre à la cliente de modifier le contenu comme bon lui semble via une authentification."
+      ],
+      "description": [
+        "Le but de ce projet était donc d'améliorer le site portfolio d’une architecte d’intérieur en le rendant dynamique, le tout avec une API.",
+        "Pour ça j'ai eu à ma disposition pas mal de choses, comme un figma complet avec toutes les étapes et écrans à intégrer, une documentation de l'API et un Kanban des différentes fonctionnalités.",
+        "La plus grosse difficulté du projet consistait à implémenter la connexion pour avoir les autorisations nécessaires pour faire toutes les autres actions.",
+        "Dans toute cette partie de d'implémentation et de tests un outil m'a été particulièrement utile : Postman. C'est avec lui que j'ai pu tester toutes mes requêtes API et vérifier une par une qu'elles fonctionnaient toutes comme attendues."
+      ],
       "stack": ["JavaScript", "HTML", "CSS"],
-      "contexte": "Il s’agit ici d’un projet d’étude pour développer un front-end dynamique avec une API Swagger. Ce projet consiste donc à reprendre une base existante d’un site vitrine statique développé en Javascript pour en faire quelque chose de modulaire dans laquelle seule la propriétaire pourra modifier le contenu. Tout ceci est géré par une API Swagger que j’ai du utiliser pour implémenter toutes les actions CRUD sur le site et permettre à la cliente de modifier le contenu comme bon lui semble. Il y a pleins de choses déjà présentes pour le projet afin d’avoir un rendu le plus proche du milieu professionnel comme le design avec les nouvelles fonctionnalités via Figma, le code back-end qui permettra de faire persister les données et de tester les fonctionnalités, le Kanban de la mission, pour voir les tâches qui attribuées et enfin le code front-end d’origine avec la version statique de la page de l’architecte",
       "objectifs": [
         "Gérer les événements utilisateurs",
         "Manipuler les éléments du DOM pour avoir un site dynamique",
-        "Récupérer les données utilisateurs via des formulaires"
+        "Récupérer les données utilisateurs via des formulaires",
+        "Gérer une connexion et une clé d'authentification"
       ],
-      "images": [""]
+      "images": [
+        "/assets/project/portfolio-architecte-home.jpeg",
+        "/assets/project/portfolio-architecte-login.jpeg",
+        "/assets/project/portfolio-architecte-works.jpeg"
+      ]
     }
   ]
 }

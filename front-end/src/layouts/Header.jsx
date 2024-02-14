@@ -8,7 +8,6 @@ function Header() {
       </Link>
       <div className='toggle-language'>
         <p>FR</p>
-        <p>EN</p>
       </div>
     </header>
   )

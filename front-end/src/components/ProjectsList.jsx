@@ -1,12 +1,16 @@
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import data from '../data/data.json'
 
 function ProjectsLink() {
+  const { id: projectIdFromUrl } = useParams()
   const projects = data.projets
+
+  // Filtrer les projets en fonction de l'ID de l'URL
+  const filteredProjects = projects.filter((project) => project.id !== projectIdFromUrl)
 
   return (
     <ul className='card-container'>
-      {projects.map((project) => (
+      {filteredProjects.map((project) => (
         <li key={project.id}>
           <Link to={`/project/${project.id}`}>
             <div className='card'>

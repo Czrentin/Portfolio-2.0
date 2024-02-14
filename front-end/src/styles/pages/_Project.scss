@@ -42,8 +42,13 @@
     @include h3-style;
     text-align: center;
   }
-  p {
-    color: $background-body;
+  .container-paragraphe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    p {
+      color: $background-body;
+    }
   }
 }
 
@@ -79,5 +84,33 @@
   h4 {
     @include h3-style;
     text-align: center;
+  }
+  h5 {
+    @include h3-style;
+    font-size: 1.125rem;
+  }
+  .container-paragraphe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  ul {
+    padding-left: 20px;
+    li {
+      list-style: square;
+    }
+  }
+}
+
+.other-project-container {
+  display: flex;
+  flex-direction: column;
+  grid-column: 3 span;
+  gap: 20px;
+  .card-container {
+    flex-direction: row;
+  }
+  h4 {
+    @include h3-style;
   }
 }

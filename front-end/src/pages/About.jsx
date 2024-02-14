@@ -1,5 +1,6 @@
 import data from '../data/data.json'
 import StackList from '../components/StackList'
+import ExperienceList from '../components/ExperienceList'
 
 function About() {
   return (
@@ -20,6 +21,7 @@ function About() {
       </section>
       <section className='experience-section'>
         <h2>Mes expériences</h2>
+        <ExperienceList />
       </section>
     </main>
   )

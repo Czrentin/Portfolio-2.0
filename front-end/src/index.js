@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import './styles/style.css'
 
+import ScrollToTop from './components/ScrollToTop'
+
 import Home from './pages/Home'
 import About from './pages/About'
 import Project from './pages/Project'
@@ -16,6 +18,7 @@ const root = createRoot(container)
 root.render(
   <React.StrictMode>
     <Router>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route

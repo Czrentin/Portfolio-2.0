@@ -1,0 +1,14 @@
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-container {
+  .title-p {
+    @include p-large-style;
+  }
+  .date-p {
+    @include p-small-style;
+  }
+}
