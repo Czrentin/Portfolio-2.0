@@ -38,6 +38,14 @@
   },
   "stack": [
     {
+      "nom": "VSCode",
+      "logo": "assets/stack/vscode-icon.svg"
+    },
+    {
+      "nom": "Notion",
+      "logo": "assets/stack/notion-icon.svg"
+    },
+    {
       "nom": "TypeScript",
       "logo": "assets/stack/typescript-icon.svg"
     },
@@ -76,14 +84,6 @@
     {
       "nom": "Figma",
       "logo": "assets/stack/figma-icon.svg"
-    },
-    {
-      "nom": "VSCode",
-      "logo": "assets/stack/vscode-icon.svg"
-    },
-    {
-      "nom": "Notion",
-      "logo": "assets/stack/notion-icon.svg"
     }
   ],
   "projets": [
