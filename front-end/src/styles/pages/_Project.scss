@@ -24,8 +24,8 @@
     width: 100%;
     aspect-ratio: 12/3;
   }
-  h3 {
-    @include h2-style($text-transform: uppercase);
+  h2 {
+    text-transform: uppercase;
     z-index: 1;
     position: absolute;
     margin-left: 10%;
@@ -35,11 +35,10 @@
 
 .presentation-project-container {
   grid-column: 2 span;
-  background-color: $fill-fourth-color;
+  background-color: $white-smoke-color;
   gap: 20px;
-  h4 {
-    color: $background-body;
-    @include h3-style;
+  h3 {
+    color: $deep-blue-color;
     text-align: center;
   }
   .container-paragraphe {
@@ -47,17 +46,16 @@
     flex-direction: column;
     gap: 10px;
     p {
-      color: $background-body;
+      color: $deep-blue-color;
     }
   }
 }
 
 .stack-project-container {
   grid-column: 1 span;
-  border: 1px solid $fill-third-color;
+  border: 1px solid $gray-blue-color;
   border-radius: $radius;
-  h4 {
-    @include h3-style;
+  h3 {
     text-align: center;
   }
   div {
@@ -79,14 +77,12 @@
 
 .description-project-container {
   grid-column: 3 span;
-  background-color: $fill-third-color;
+  background-color: $gray-blue-color;
   gap: 20px;
-  h4 {
-    @include h3-style;
+  h3 {
     text-align: center;
   }
-  h5 {
-    @include h3-style;
+  h4 {
     font-size: 1.125rem;
   }
   .container-paragraphe {
@@ -109,8 +105,5 @@
   gap: 20px;
   .card-container {
     flex-direction: row;
-  }
-  h4 {
-    @include h3-style;
   }
 }

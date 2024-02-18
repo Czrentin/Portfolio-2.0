@@ -1,12 +1,11 @@
 .link-button {
-  background-color: $fill-third-color;
+  background-color: $gray-blue-color;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 25px;
-  border: 1px solid $fill-fourth-color;
+  border: 1px solid $white-smoke-color;
   border-radius: $radius;
-  @include p-large-style;
   .fa-right-to-bracket {
     cursor: pointer;
     font-size: 24px;
@@ -14,14 +13,13 @@
 }
 
 .link {
-  background-color: $fill-secondary-color;
+  background-color: $flash-blue-color;
   display: flex;
   justify-content: space-between;
   padding: 16px 25px;
   align-items: center;
   border-radius: $radius;
-  border: 1px solid $fill-fourth-color;
-  @include p-large-style;
+  border: 1px solid $white-smoke-color;
   .fa-right-to-bracket {
     cursor: pointer;
     font-size: 24px;

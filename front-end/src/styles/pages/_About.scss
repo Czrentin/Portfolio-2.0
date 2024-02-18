@@ -1,40 +1,31 @@
 @import '../components/StackList';
 @import '../components/ExperienceList';
 
-section {
-  grid-column: 3 span;
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  border-radius: $radius;
+.about-me-section,
+.stack-section,
+.experience-section {
   h2 {
-    @include h3-style;
+    text-align: center;
   }
 }
 
 .about-me-section {
-  background-color: $fill-third-color;
-  h2 {
-    text-align: center;
-  }
-  p {
-    @include p-style;
+  background-color: $gray-blue-color;
+  .p-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
 .stack-section {
-  background-color: $fill-fourth-color;
+  background-color: $white-smoke-color;
   align-items: center;
   h2 {
-    color: $background-body;
-    text-align: center;
+    color: $deep-blue-color;
   }
 }
 
 .experience-section {
-  border: 1px solid $fill-third-color;
-  h2 {
-    text-align: center;
-  }
+  border: 1px solid $gray-blue-color;
 }

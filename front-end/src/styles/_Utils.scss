@@ -1,16 +1,9 @@
-$background-body: #020817;
-$fill-secondary-color: #3b82f6;
-$fill-third-color: #1e293b;
-$fill-fourth-color: #e2e8f0;
+$deep-blue-color: #020817;
+$flash-blue-color: #3b82f6;
+$gray-blue-color: #1e293b;
+$white-smoke-color: #e2e8f0;
 $text-color: #f6f9fc;
 $radius: 0.5rem;
-
-@mixin h1-style {
-  font-size: 3rem;
-  font-weight: 800;
-  line-height: 48px;
-  letter-spacing: -0.576px;
-}
 
 @mixin h2-style($text-transform: none) {
   font-size: 1.875rem;
@@ -41,6 +34,45 @@ $radius: 0.5rem;
 }
 
 @mixin p-small-style {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.h1-style {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: -0.576px;
+}
+
+.h2-style {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.225px;
+}
+
+.h3-style {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.144px;
+}
+
+.p-normal-style {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.p-large-style {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.p-small-style {
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 14px;

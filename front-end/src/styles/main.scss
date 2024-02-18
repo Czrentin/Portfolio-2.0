@@ -18,13 +18,23 @@
 }
 
 body {
-  background-color: $background-body;
+  background-color: $deep-blue-color;
 }
 
 main {
   display: grid;
+  width: 90%;
   max-width: 1200px;
   margin-inline: auto;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+}
+
+section {
+  grid-column: 3 span;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: $radius;
 }

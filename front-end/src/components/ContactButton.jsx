@@ -8,7 +8,7 @@ function ContactButton({ label, value }) {
       className='contact-button'
       onClick={() => copyToClipboard(value)}
     >
-      <p>
+      <p className='p-large-style'>
         {label}
         <span className='copy-content'>{value}</span>
       </p>

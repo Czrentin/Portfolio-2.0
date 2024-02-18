@@ -3,7 +3,7 @@
 .social-contact-wrapper,
 .title-about-wrapper,
 .projects-card-wrapper {
-  border: 1px solid $fill-third-color;
+  border: 1px solid $gray-blue-color;
   border-radius: $radius;
   padding: 40px;
   display: flex;
@@ -23,21 +23,12 @@
     width: 195px;
     aspect-ratio: 1/1;
   }
-  h1 {
-    @include h1-style;
-  }
 }
 
 .about-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  h2 {
-    @include h2-style;
-  }
-  p {
-    @include p-style;
-  }
 }
 
 .social-contact-wrapper {
@@ -50,7 +41,6 @@
   flex-direction: column;
   gap: 20px;
   h2 {
-    @include h2-style;
     text-align: center;
   }
 }
@@ -64,8 +54,5 @@
     gap: 40px;
     width: 50%;
     margin-inline: auto;
-    h2 {
-      @include h2-style;
-    }
   }
 }

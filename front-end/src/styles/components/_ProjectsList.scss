@@ -34,7 +34,7 @@
     transition: filter 0.3s ease-in-out;
   }
   h3 {
-    @include h3-style($text-transform: uppercase);
+    text-transform: uppercase;
     z-index: 1;
     position: absolute;
     margin-left: 10%;

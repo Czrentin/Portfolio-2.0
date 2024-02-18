@@ -1,17 +1,14 @@
 .contact-button {
-  background-color: $fill-third-color;
+  background-color: $gray-blue-color;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 25px;
-  border: 1px solid $fill-fourth-color;
+  border: 1px solid $white-smoke-color;
   border-radius: $radius;
   cursor: pointer;
-  p {
-    @include p-large-style;
-    .copy-content {
-      display: none;
-    }
+  p .copy-content {
+    display: none;
   }
   .fa-copy {
     font-size: 24px;

@@ -10,8 +10,8 @@ function ProjectsLink() {
           className='experience-container'
           key={index}
         >
-          <p className='title-p'>{`${experience.titre} - ${experience.entreprise}`}</p>
-          <p className='date-p'>{experience.dates}</p>
+          <p className='title-p p-large-style'>{`${experience.titre} - ${experience.entreprise}`}</p>
+          <p className='date-p p-small-style'>{experience.dates}</p>
         </div>
       ))}
     </div>

@@ -17,14 +17,14 @@ function Project() {
       <main>
         <div className='title-project-container'>
           <div className='overlay-card'></div>
-          <h3>{project.titre}</h3>
+          <h2 className='h2-style'>{project.titre}</h2>
           <img
             src={project.cover}
             alt=''
           />
         </div>
         <div className='presentation-project-container'>
-          <h4>Présentation</h4>
+          <h3 className='h3-style'>Présentation</h3>
           <div className='container-paragraphe'>
             {project.contexte.map((contexte, index) => (
               <p key={index}>
@@ -42,7 +42,7 @@ function Project() {
           </Link>
         </div>
         <div className='stack-project-container'>
-          <h4>La stack</h4>
+          <h3 className='h3-style'>La stack</h3>
           <div>
             <ul>
               {project.stack.map((stack) => (
@@ -52,7 +52,7 @@ function Project() {
           </div>
         </div>
         <div className='description-project-container'>
-          <h4>Le projet</h4>
+          <h3 className='h3-style'>Le projet</h3>
           <div className='container-paragraphe'>
             {project.description.map((description, index) => (
               <p key={index}>
@@ -61,7 +61,7 @@ function Project() {
               </p>
             ))}
           </div>
-          <h5>Les objectifs de ce projet :</h5>
+          <h4>Les objectifs de ce projet :</h4>
           <ul>
             {project.objectifs.map((objectifs) => (
               <li key={objectifs}>{objectifs}</li>
@@ -70,7 +70,7 @@ function Project() {
           <ImagesList />
         </div>
         <div className='other-project-container'>
-          <h4>Autres projets</h4>
+          <h3 className='h3-style'>Autres projets</h3>
           <ProjectsList />
         </div>
       </main>

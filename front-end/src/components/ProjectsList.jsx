@@ -15,7 +15,7 @@ function ProjectsLink() {
           <Link to={`/project/${project.id}`}>
             <div className='card'>
               <div className='content-card'>
-                <h3>{project.titre}</h3>
+                <h3 className='h3-style'>{project.titre}</h3>
                 <img
                   src={project.cover}
                   alt={`${project.titre} cover`}
