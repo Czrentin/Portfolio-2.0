@@ -32,6 +32,9 @@
     width: 100%;
     aspect-ratio: 12/3;
     transition: filter 0.3s ease-in-out;
+    @media (max-width: 560px) {
+      height: 100px;
+    }
   }
   h3 {
     text-transform: uppercase;

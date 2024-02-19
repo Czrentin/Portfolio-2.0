@@ -4,6 +4,9 @@
   padding: 40px;
   display: flex;
   flex-direction: column;
+  @media (max-width: 450px) {
+    padding: 20px;
+  }
 }
 
 .title-project-container {
@@ -49,12 +52,16 @@
       color: $deep-blue-color;
     }
   }
+  @media (max-width: 800px) {
+    grid-column: 3 span;
+  }
 }
 
 .stack-project-container {
   grid-column: 1 span;
   border: 1px solid $gray-blue-color;
   border-radius: $radius;
+  gap: 20px;
   h3 {
     text-align: center;
   }
@@ -72,6 +79,9 @@
         list-style: square;
       }
     }
+  }
+  @media (max-width: 800px) {
+    grid-column: 3 span;
   }
 }
 
@@ -105,5 +115,8 @@
   gap: 20px;
   .card-container {
     flex-direction: row;
+    @media (max-width: 560px) {
+      flex-direction: column;
+    }
   }
 }

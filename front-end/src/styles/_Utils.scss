@@ -10,6 +10,9 @@ $radius: 0.5rem;
   font-weight: 800;
   line-height: 48px;
   letter-spacing: -0.576px;
+  @media (max-width: 665px) {
+    font-size: 2.2rem;
+  }
 }
 
 .h2-style {
@@ -17,6 +20,9 @@ $radius: 0.5rem;
   font-weight: 600;
   line-height: 36px;
   letter-spacing: -0.225px;
+  @media (max-width: 665px) {
+    font-size: 1.4rem;
+  }
 }
 
 .h3-style {
@@ -24,6 +30,9 @@ $radius: 0.5rem;
   font-weight: 600;
   line-height: 32px;
   letter-spacing: -0.144px;
+  @media (max-width: 665px) {
+    font-size: 1.2rem;
+  }
 }
 
 .p-normal-style {
