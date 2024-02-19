@@ -91,7 +91,7 @@
       "id": "1",
       "titre": "Kasa",
       "cover": "/assets/cover/kasa-cover.jpg",
-      "lien": "https://github.com/Czrentin/P6-Kasa",
+      "lien": "https://p6-kasa-delta.vercel.app/",
       "contexte": [
         "Il s’agit ici d’un projet d’étude pour développer un front-end fonctionnel en React.js avec un back-end pas encore construit.",
         "Une refonte totale pour passer à une stack complète en JavaScript a été lancée et je me suis occupé du front-end en React.js."
