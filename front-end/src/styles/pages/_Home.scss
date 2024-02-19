@@ -25,6 +25,9 @@
   img {
     width: 195px;
     aspect-ratio: 1/1;
+    @media (max-width: 420px) {
+      width: 100%;
+    }
   }
   @media (max-width: 560px) {
     flex-direction: column;
