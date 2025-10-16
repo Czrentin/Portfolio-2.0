@@ -1,19 +1,24 @@
 {
   "informations_personnelles": {
     "nom": "Corentin Braud",
-    "titre": "Développeur web",
+    "titre": "Développeur",
     "portrait": "assets/portrait.jpg",
     "email": "corentin.braud95@gmail.com",
     "telephone": "06 38 66 82 47"
   },
   "parcours": {
-    "presentation": "Bonjour, je suis un développeur web français, vivant dans le nord de la région parisienne. Passionné par le développement web et l’expérience utilisateur, j'adore explorer de nouvelles technologies web et je suis toujours en quête de nouvelles compétences à acquérir.",
+    "presentation": "Bonjour, je suis un jeune développeur français vivant à Paris. Passionné par le développement et rendre les choses plus efficaces, j'adore explorer de nouvelles technologies et je suis toujours en quête de nouvelles compétences à acquérir.",
     "details": [
-      "Mon parcours professionnel et artistique est une aventure riche en diversité. Initialement diplômé en biotechnologie avec un bac STL, j'ai rapidement élargi mes horizons en explorant le monde du web design. Cette première incursion dans le domaine créatif m'a conduit à plonger dans les arts plastiques, une période de ma vie marquée par la découverte et l'expression artistique. Parallèlement à mes études artistiques, j'ai embrassé le champ de la programmation, ouvrant ainsi de nouvelles perspectives professionnelles.",
-      "Mon engagement en tant qu'animateur étudiant dans un centre de loisirs a constitué une expérience humaine enrichissante, tandis que la création de JCRC Production, devenu aujourd’hui ID Production avec des amis a concrétisé notre passion commune pour la production artistique. En dehors de mes engagements professionnels, le sport et les jeux vidéo occupent une place significative dans ma vie. Ma passion de longue date pour le tennis a évolué vers une participation active en compétition, symbolisant l'importance de la discipline et de la persévérance dans mes activités.",
-      "Mon parcours atypique se distingue par une quête constante d'apprentissage, d'exploration et d'expression créative. Chaque étape a contribué à façonner ma compréhension holistique de l'art, de la technologie et du travail d'équipe, créant ainsi un ensemble unique de compétences et d'expériences."
+      "Mon entrée dans la vie professionnelle (pour l’aspect développement) s’est faite chez Display Interactive il y a maintenant presque deux ans, où j’ai intégré l’équipe Opérations. Travaillant quotidiennement avec PHP et Python, j’ai rapidement découvert l’importance de la polyvalence dans un environnement dynamique, où les échanges constants entre équipes sont essentiels. Tout cela m’a permis de comprendre les rouages d’une structure complète tout en m’obligeant à développer de nouvelles bases techniques.",
+      "Très vite, j’ai ressenti le besoin d’aller plus loin : d’apporter des solutions durables plutôt que de simplement éteindre les incendies du quotidien. Cette ambition m’a conduit à faire évoluer mon rôle, à améliorer les processus internes, à optimiser les outils existants et à structurer la documentation technique de l’équipe. Ces initiatives ont eu un impact significatif sur la façon dont j’étais perçu et m’ont permis d’évoluer davantage.",
+      "Aujourd’hui, je suis fier d’être devenu un point de référence au sein de mon équipe. J’ai eu la chance de recruter et de former deux personnes qui sont désormais mes pairs, et de voir mes idées contribuer au bon fonctionnement global de l’entreprise."
     ],
     "experiences": [
+      {
+        "titre": "Support technique et ingestion de contenu",
+        "entreprise": "Display Interactive",
+        "dates": "Mars 2024 à aujourd'hui"
+      },
       {
         "titre": "Régisseur technique",
         "entreprise": "Who's next",
@@ -42,6 +47,10 @@
       "logo": "assets/stack/vscode-icon.svg"
     },
     {
+      "nom": "Cursor",
+      "logo": "assets/stack/cursor-icon.svg"
+    },
+    {
       "nom": "Notion",
       "logo": "assets/stack/notion-icon.svg"
     },
@@ -58,24 +67,32 @@
       "logo": "assets/stack/sass-icon.svg"
     },
     {
-      "nom": "Node.js",
-      "logo": "assets/stack/node-js-icon.svg"
+      "nom": "Python",
+      "logo": "assets/stack/python-icon.svg"
     },
     {
-      "nom": "Express.js",
-      "logo": "assets/stack/express-js-icon.svg"
+      "nom": "PHP",
+      "logo": "assets/stack/php-icon.svg"
     },
     {
-      "nom": "MongoDB",
-      "logo": "assets/stack/mongo-db-icon.svg"
+      "nom": "JSON",
+      "logo": "assets/stack/json-icon.svg"
+    },
+    {
+      "nom": "MySQL",
+      "logo": "assets/stack/mysql-icon.svg"
+    },
+    {
+      "nom": "Bash",
+      "logo": "assets/stack/bash-icon.svg"
     },
     {
       "nom": "Git",
       "logo": "assets/stack/git-icon.svg"
     },
     {
-      "nom": "Npm",
-      "logo": "assets/stack/npm-icon.svg"
+      "nom": "GitLab",
+      "logo": "assets/stack/gitlab-icon.svg"
     },
     {
       "nom": "Postman",

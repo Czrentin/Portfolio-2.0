@@ -3,6 +3,7 @@ import Portrait from '../data/portrait.jpg'
 import ContactButton from '../components/ContactButton'
 import LinkButton from '../components/LinkButton'
 import ProjectsList from '../components/ProjectsList'
+import data from '../data/data.json'
 
 function Home() {
   return (
@@ -17,12 +18,7 @@ function Home() {
         </div>
         <div className='about-container'>
           <h2 className='h2-style'>À propos de moi</h2>
-          <p className='p-normal-style'>
-            Bonjour, je suis un développeur web français, vivant dans le nord de la région
-            parisienne. Passionné par le développement web et l’expérience utilisateur, j'adore
-            explorer de nouvelles technologies web et je suis toujours en quête de nouvelles
-            compétences à acquérir.
-          </p>
+          <p className='p-normal-style'>{data.parcours.presentation}</p>
           <Link
             to='/about'
             className='link p-large-style'
