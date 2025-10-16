@@ -18,7 +18,11 @@ function Home() {
         </div>
         <div className='about-container'>
           <h2 className='h2-style'>À propos de moi</h2>
-          <p className='p-normal-style'>{data.parcours.presentation}</p>
+          <div className='p-normal-style'>
+            {data.parcours.presentation.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
           <Link
             to='/about'
             className='link p-large-style'

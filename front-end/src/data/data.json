@@ -7,7 +7,10 @@
     "telephone": "06 38 66 82 47"
   },
   "parcours": {
-    "presentation": "Bonjour, je suis un jeune développeur français vivant à Paris. Passionné par le développement et rendre les choses plus efficaces, j'adore explorer de nouvelles technologies et je suis toujours en quête de nouvelles compétences à acquérir.",
+    "presentation": [
+      "Bonjour, je suis un jeune développeur français vivant à Paris.",
+      "Passionné par le développement et rendre les choses plus efficaces, j'adore explorer de nouvelles technologies et je suis toujours en quête de nouvelles compétences à acquérir."
+    ],
     "details": [
       "Mon entrée dans la vie professionnelle (pour l’aspect développement) s’est faite chez Display Interactive il y a maintenant presque deux ans, où j’ai intégré l’équipe Opérations. Travaillant quotidiennement avec PHP et Python, j’ai rapidement découvert l’importance de la polyvalence dans un environnement dynamique, où les échanges constants entre équipes sont essentiels. Tout cela m’a permis de comprendre les rouages d’une structure complète tout en m’obligeant à développer de nouvelles bases techniques.",
       "Très vite, j’ai ressenti le besoin d’aller plus loin : d’apporter des solutions durables plutôt que de simplement éteindre les incendies du quotidien. Cette ambition m’a conduit à faire évoluer mon rôle, à améliorer les processus internes, à optimiser les outils existants et à structurer la documentation technique de l’équipe. Ces initiatives ont eu un impact significatif sur la façon dont j’étais perçu et m’ont permis d’évoluer davantage.",
