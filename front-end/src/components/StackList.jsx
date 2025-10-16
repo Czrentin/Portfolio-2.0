@@ -12,15 +12,36 @@ const StackList = () => {
   function addAnimation() {
     const scroller = document.querySelector('.scroller')
     if (scroller && !scroller.getAttribute('data-animated')) {
-      scroller.setAttribute('data-animated', true)
-
       const scrollerInner = scroller.querySelector('.scroller-inner')
-      const scrollerContent = Array.from(scrollerInner.children)
 
-      scrollerContent.forEach((item) => {
-        const duplicatedItem = item.cloneNode(true)
-        duplicatedItem.setAttribute('aria-hidden', true)
-        scrollerInner.appendChild(duplicatedItem)
+      // attendre que toutes les images à l'intérieur soient chargées
+      const imgs = Array.from(scrollerInner.querySelectorAll('img'))
+      const waitForImages = Promise.all(
+        imgs.map(
+          (img) =>
+            new Promise((resolve) => {
+              if (img.complete) resolve()
+              else img.addEventListener('load', resolve)
+              // si l'image échoue, on résout quand même pour ne pas bloquer
+              img.addEventListener('error', resolve)
+            })
+        )
+      )
+
+      waitForImages.then(() => {
+        // re-vérifier qu'on n'a pas été animé entre-temps
+        if (scroller.getAttribute('data-animated')) return
+
+        const scrollerContent = Array.from(scrollerInner.children)
+
+        scrollerContent.forEach((item) => {
+          const duplicatedItem = item.cloneNode(true)
+          duplicatedItem.setAttribute('aria-hidden', true)
+          scrollerInner.appendChild(duplicatedItem)
+        })
+
+        // activer l'animation après duplication
+        scroller.setAttribute('data-animated', true)
       })
     }
   }
