@@ -8,7 +8,7 @@ function LinkButton({ label, value }) {
       className='link-button p-large-style'
     >
       {label}
-      <i className='fa-solid fa-right-to-bracket'></i>
+      <i class='fa-solid fa-person-walking-arrow-right'></i>
     </Link>
   )
 }

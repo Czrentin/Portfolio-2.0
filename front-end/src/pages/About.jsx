@@ -1,6 +1,7 @@
 import data from '../data/data.json'
 import StackList from '../components/StackList'
 import ExperienceList from '../components/ExperienceList'
+import ProjectsList from '../components/ProjectsList'
 
 function About() {
   return (
@@ -27,6 +28,10 @@ function About() {
         <h2 className='h3-style'>Mes expériences</h2>
         <ExperienceList />
       </section>
+      <div className='other-project-container'>
+        <h3 className='h3-style'>Mes projets</h3>
+        <ProjectsList />
+      </div>
     </main>
   )
 }

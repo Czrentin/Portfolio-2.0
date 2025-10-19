@@ -12,7 +12,7 @@ function ContactButton({ label, value }) {
         {label}
         <span className='copy-content'>{value}</span>
       </p>
-      <i className='fa-solid fa-copy'></i>
+      <i class='fa-solid fa-clipboard'></i>
     </button>
   )
 }

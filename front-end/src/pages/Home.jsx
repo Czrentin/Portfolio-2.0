@@ -14,7 +14,7 @@ function Home() {
             src={Portrait}
             alt='Portrait de Corentin Braud'
           />
-          <h1 className='h1-style'>Développeur web</h1>
+          <h1 className='h1-style'>Développeur</h1>
         </div>
         <div className='about-container'>
           <h2 className='h2-style'>À propos de moi</h2>
@@ -27,7 +27,7 @@ function Home() {
             to='/about'
             className='link p-large-style'
           >
-            En savoir plus <i className='fa-solid fa-right-to-bracket'></i>
+            En savoir plus <i class='fa-solid fa-ellipsis'></i>
           </Link>
         </div>
       </section>
@@ -61,10 +61,10 @@ function Home() {
           <ProjectsList />
           <Link
             to='https://github.com/Czrentin'
-            className='link p-large-style'
+            className='link-button p-large-style'
             target='_blank'
           >
-            Pour plus de projets <i className='fa-solid fa-right-to-bracket'></i>
+            Pour plus de projets <i class='fa-solid fa-person-walking-arrow-right'></i>
           </Link>
         </div>
       </section>

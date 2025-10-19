@@ -35,10 +35,10 @@ function Project() {
           </div>
           <Link
             to={project.lien}
-            className='link'
+            className='link-button'
             target='_blank'
           >
-            Le site / le GitHub <i className='fa-solid fa-right-to-bracket'></i>
+            Le site / le GitHub <i class='fa-solid fa-person-walking-arrow-right'></i>
           </Link>
         </div>
         <div className='stack-project-container'>
